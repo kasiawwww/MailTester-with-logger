@@ -10,7 +10,7 @@ using Logger;
 namespace MailService
 {
     public static class MailService
-    {
+    { 
         public static bool Send(MailModel model)
         {
             Info info = new Info("SendMailInfo.txt");
